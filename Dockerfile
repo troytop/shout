@@ -3,7 +3,7 @@
 # https://github.com/Shuo-IRC/Shuo/pull/87/files
 #
 
-FROM node:4.0-onbuild
+FROM node:onbuild
 
 # Create a non-root user for shout to run in.
 RUN useradd --create-home shout
